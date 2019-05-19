@@ -4,6 +4,6 @@ def reformat_languages(languages)
   languages.each do |style, language|
     puts style
     language[:style] = style
-    
+
   end
 end
