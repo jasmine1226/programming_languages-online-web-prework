@@ -7,5 +7,5 @@ def reformat_languages(languages)
       new_hash[:language][:style] = style.to_s
     end
   end
-  new_hash
+  puts new_hash
 end
