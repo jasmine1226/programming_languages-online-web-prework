@@ -7,7 +7,7 @@ def reformat_languages(languages)
       if new_hash[language][:style] == nil
         new_hash[language][:style] = []
       end
-      new_hash[language][:style] << category
+      new_hash[language][:style].push(category)
       puts new_hash[:javascript]
     end
   end
