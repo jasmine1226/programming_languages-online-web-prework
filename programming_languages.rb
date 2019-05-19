@@ -8,7 +8,7 @@ def reformat_languages(languages)
         new_hash[language][:style] = []
       end
       new_hash[language][:style] << category
-      puts new_hash
+      puts new_hash[:javascript]
     end
   end
   new_hash
